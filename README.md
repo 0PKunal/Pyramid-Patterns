@@ -50,33 +50,44 @@ A tiny, colorful collection of classic pyramid/triangle patterns implemented in 
 ## Project layout
 
 ```
-README.md
-c/
-  diamond_pattern.c
-  floyd_triangle.c
-  full_pyramid.c
-  half_pyramid.c
-  inverted_pyramid.c
-  number_pyramid.c
-  pascal_triangle.c
-  exe/
-      diamond_pattern.exe
-      floyd_triangle.exe
-      full_pyramid.exe
-      half_pyramid.exe
-      inverted_pyramid.exe
-      number_pyramid.exe
-      pascal_triangle.exe
-py/
-  __init__.py
-  diamond_pattern.py
-  floyd_triangle.py
-  full_pyramid.py
-  half_pyramid.py
-  inverted_pyramid.py
-  number_pyramid.py
-  pascal_triangle.py
-  runner.py
+├── LICENSE
+├── README.md
+├── c
+    ├── diamond_pattern.c
+    ├── exe
+    │   ├── diamond_pattern.exe
+    │   ├── floyd_triangle.exe
+    │   ├── full_pyramid.exe
+    │   ├── half_pyramid.exe
+    │   ├── inverted_pyramid.exe
+    │   ├── number_pyramid.exe
+    │   └── pascal_triangle.exe
+    ├── floyd_triangle.c
+    ├── full_pyramid.c
+    ├── half_pyramid.c
+    ├── inverted_pyramid.c
+    ├── number_pyramid.c
+    └── pascal_triangle.c
+└── py
+    ├── __init__.py
+    ├── __pycache__
+        ├── __init__.cpython-313.pyc
+        ├── diamond_pattern.cpython-313.pyc
+        ├── floyd_triangle.cpython-313.pyc
+        ├── full_pyramid.cpython-313.pyc
+        ├── half_pyramid.cpython-313.pyc
+        ├── inverted_pyramid.cpython-313.pyc
+        ├── number_pyramid.cpython-313.pyc
+        ├── pascal_triangle.cpython-313.pyc
+        └── runner.cpython-313.pyc
+    ├── diamond_pattern.py
+    ├── floyd_triangle.py
+    ├── full_pyramid.py
+    ├── half_pyramid.py
+    ├── inverted_pyramid.py
+    ├── number_pyramid.py
+    ├── pascal_triangle.py
+    └── runner.py
 ```
 
 ## Requirements
